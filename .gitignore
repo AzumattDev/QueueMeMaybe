@@ -1,0 +1,8 @@
+bin/
+obj/
+/packages/
+riderModule.iml
+/_ReSharper.Caches/
+Queue_Me_Maybe.sln.DotSettings.user
+.idea
+.vs
