@@ -32,7 +32,7 @@ public static class PlayerFixedUpdatePatch
             {
                 float oldDuration = item.m_shared.m_equipDuration;
                 item.m_shared.m_equipDuration = 0f;
-                __instance.ToggleEquiped(item);
+                __instance.ToggleEquipped(item);
                 item.m_shared.m_equipDuration = oldDuration;
             }
 
@@ -70,7 +70,7 @@ public static class PlayerUpdatePatch
 /// <summary>
 /// Queue weapon/item changes until attack is finished, instead of simply ignoring the change entirely
 /// </summary>
-[HarmonyPatch(typeof(Player), nameof(Player.ToggleEquiped))]
+[HarmonyPatch(typeof(Player), nameof(Player.ToggleEquipped))]
 public static class PlayerToggleEquipedPatch
 {
     private static void Postfix(Player __instance, bool __result, ItemDrop.ItemData item)

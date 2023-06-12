@@ -134,7 +134,7 @@
     </Target>
     <Target Name="Copy" AfterTargets="GetAssemblyVersion">
         <!--<Exec Command="copy /Y &quot;$(TargetDir)$(AssemblyName).dll&quot; &quot;$(GamePath)\BepInEx\plugins\$(AssemblyName).dll&quot;" />-->
-        <Exec Command="copy /Y &quot;$(TargetDir)$(AssemblyName).dll&quot; &quot;C:\Users\crypt\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\ALo_testingprofile\BepInEx\plugins\$(AssemblyName).dll&quot;" />
+        <Exec Command="copy /Y &quot;$(TargetDir)$(AssemblyName).dll&quot; &quot;C:\Users\crypt\AppData\Roaming\r2modmanPlus-local\Valheim\profiles\AzuTESTING_OwnMods\BepInEx\plugins\Azumatt-Queue_Me_Maybe\$(AssemblyName).dll&quot;" />
         <Exec Command="copy /Y &quot;README.md&quot; &quot;Thunderstore\README.md&quot;" />
     </Target>
     <Target Name="UpdateManifestVersion" AfterTargets="Copy">

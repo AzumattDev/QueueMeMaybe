@@ -1,9 +1,9 @@
 {
   "name": "Queue_Me_Maybe",
-  "version_number": "1.0.0",
+  "version_number": "1.1.0",
   "website_url": "https://github.com/AzumattDev/QueueMeMaybe",
   "description": "This mod allows you to queue up weapon changes during attacks, ensuring that your requests to switch weapons won't be ignored.",
   "dependencies": [
-    "denikson-BepInExPack_Valheim-5.4.2100"
+    "denikson-BepInExPack_Valheim-5.4.2105"
   ]
 }

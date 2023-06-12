@@ -13,7 +13,7 @@ namespace Queue_Me_Maybe
     public class Queue_Me_MaybePlugin : BaseUnityPlugin
     {
         internal const string ModName = "Queue_Me_Maybe";
-        internal const string ModVersion = "1.0.0";
+        internal const string ModVersion = "1.1.0";
         internal const string Author = "Azumatt";
         private const string ModGUID = Author + "." + ModName;
         private static string ConfigFileName = ModGUID + ".cfg";
